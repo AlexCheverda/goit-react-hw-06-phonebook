@@ -4,7 +4,6 @@ import { addContact } from "redux/actions";
 import { nanoid } from "nanoid";
 // import PropTypes from 'prop-types';
 import { Form, Input, Label, FormBtn } from './ContactForm.Styled';
-import { findAllInRenderedTree } from "react-dom/test-utils";
 
 const ContactForm = () => {
   const contacts = useSelector(state => state.contacts);
